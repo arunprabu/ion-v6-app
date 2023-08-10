@@ -1,0 +1,7 @@
+{
+  "name": "arun-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

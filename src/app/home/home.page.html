@@ -1,20 +1,36 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <swiper-container class="mySwiper" navigation="true">
+      <swiper-slide>
+        <div class="slide">
+          <img src="https://via.placeholder.com/150/771796" alt="" />
+          <h2>Welcome</h2>
+          <p>
+            The <b>ionic contact manager app</b> is a practical preview of the ionic framework in action, and a
+            demonstration of proper code use.
+          </p>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="slide">
+          <img src="https://via.placeholder.com/150/771796" alt="" />
+          <h2>What is Ionic?</h2>
+          <p>
+            <b>Ionic Framework</b> is an open source SDK that enables developers to build high quality mobile apps
+            with web technologies like HTML, CSS, and JavaScript.
+          </p>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="slide">
+          <img src="https://via.placeholder.com/150/771796" alt="" />
+          <h2>What is Appflow?</h2>
+          <p>
+            <b>Appflow</b> is a powerful set of services and features built on top of Ionic Framework that brings a
+            totally new level of app development agility to mobile dev teams.
+          </p>
+        </div>
+      </swiper-slide>
+    </swiper-container>
   </div>
 </ion-content>

@@ -116,10 +116,28 @@ LET'S BUILD for Android.
 
 
 for Contacts Refer: 
+  Permissions in iOS 
+  -------------------
+    Apple requires the following usage description to be added and filled out for your app in Info.plist:
+
+    NSContactsUsageDescription (Privacy - Contacts Usage Description)
+    Read about Configuring Info.plist in the iOS Guide for more information on setting iOS permissions in Xcode
+
+    Accessing the notes in contact entries
+    To be able to request the notes in contract entries in iOS 13 or later, your app must have the com.apple.developer.contacts.notes entitlement. You can read more about this in the official Apple documentation.
+
+
+
   Permissions in AndroidManifest.xml 
+  ------------------------------------
     <!-- Contacts API -->
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.WRITE_CONTACTS" />
 
+=======
+Testing in Real Android Device
+======
+  https://developer.android.com/studio/debug/dev-options
+  
 
 

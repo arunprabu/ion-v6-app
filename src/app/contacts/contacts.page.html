@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>contacts</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">contacts</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-list>
+    <ion-item>
+      <ion-button (click)="createNewContact()">Add Contact</ion-button>
+    </ion-item>
+
+    <ion-item>
+      <ion-button (click)="listContacts()">List Contacts</ion-button>
+    </ion-item>
+
+    <ion-item>
+      {{contacts | json}}
+    </ion-item>
+  </ion-list>
+</ion-content>
